@@ -41,7 +41,7 @@ const OtpLoginForm = () => {
         </form>
       ) : (
         <div>
-          <p className="mb-3 font-medium text-black/60">
+          <p className="mb-3 font-normal text-violet-700">
             Enter OTP sent to {phone}
           </p>
           <OtpInput length={4} onOtpSubmit={onOtpSubmit} />
